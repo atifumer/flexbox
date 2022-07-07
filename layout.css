@@ -1,0 +1,136 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(5, 0, 2),
+    rgba(27, 27, 17, 0.466)
+  );
+}
+
+.mainall {
+  width: 100%;
+  border: 2px solid rgb(211, 8, 8);
+  box-shadow: 7px 15px 15px 7px #291414;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5%;
+  padding: 3rem;
+  width: fit-content;
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(0, 0, 0),
+    rgba(240, 229, 229, 0.466)
+  );
+}
+.one {
+  color: goldenrod;
+  border: 1.5px solid red;
+  border-radius: 10%;
+  margin-top: 20px;
+  box-shadow: 7px 15px 15px 7px #291414;
+  bottom: 20px;
+  width: 30%;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgb(12, 16, 34);
+}
+.one-1 {
+  color: goldenrod;
+  border: 1.5px solid red;
+  border-radius: 10%;
+  margin-top: 20px;
+  box-shadow: 7px 15px 15px 7px #291414;
+  bottom: 20px;
+  width: 30%;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgb(12, 16, 34);
+}
+.box1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.box2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.box3 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.one-1:hover {
+  background-color: goldenrod;
+  color: darkblue;
+  transform: skewY(20deg);
+}
+.one:hover {
+  background-color: goldenrod;
+  color: darkblue;
+  transform: skewY(20deg);
+}
+.iglo {
+  padding: 1rem;
+  color: black;
+  font-size: 17px;
+  background-image: linear-gradient(to top right, rgb(12, 16, 34), goldenrod);
+  text-decoration: none;
+  border: none;
+}
+a {
+  text-decoration: none;
+  text-align: center;
+  color: rgb(255, 0, 21);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 800;
+}
+.vgl {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 700px) {
+  .box1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .box2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .box3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .one {
+    width: 100% !important;
+    padding: 10px;
+  }
+  .one-1 {
+    width: 100%;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .esti {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .one-1 {
+    width: 100%;
+    padding: 10px;
+  }
+}
